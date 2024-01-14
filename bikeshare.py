@@ -97,7 +97,6 @@ def station_stats(df):
         Args:
             (obj) df - Pandas DataFrame object        
     """
-
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
