@@ -41,7 +41,6 @@ def get_filters():
         else:
             break
     print('-'*40)
-
     return input_city, input_month, input_day
 
 
@@ -98,7 +97,6 @@ def station_stats(df):
         Args:
             (obj) df - Pandas DataFrame object        
     """
-
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -121,7 +119,6 @@ def trip_duration_stats(df):
         Args:
             (obj) df - Pandas DataFrame object
     """
-
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
