@@ -119,7 +119,6 @@ def trip_duration_stats(df):
         Args:
             (obj) df - Pandas DataFrame object
     """
-
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
